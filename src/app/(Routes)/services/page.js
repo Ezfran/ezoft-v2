@@ -96,8 +96,8 @@ export default function Services() {
                 </article>
             </section>
 
-            <section className='flex justify-center items-center mt-12'>
-                <div className='text-center border-y-2 border-black border-opacity-20 w-9/12 flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
+            <section className='flex justify-center items-center mt-12 px-[15vw]'>
+                <div className='text-center border-y-2 border-black border-opacity-20 w-full flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
                     <h3 className='text-2xl font-semibold'>
                         ¿Estás buscando algo más?
                     </h3>
