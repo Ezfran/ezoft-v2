@@ -10,6 +10,7 @@ export default function Header() {
               src='/ezoft.png'
               width={110}
               height={105}
+              alt="logo"
             />
         </div>
 

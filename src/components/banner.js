@@ -24,7 +24,7 @@ export default function Banner() {
                     </h5>
                     <div>
                         <p className='absolute left-0 bottom-0 text-lg font-medium opacity-60'>
-                            <Link href="/">Home</Link> // {title}
+                            <Link href="/">Home //</Link> {title}
                         </p>
                     </div>
                 </section>

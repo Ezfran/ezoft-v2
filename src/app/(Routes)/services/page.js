@@ -28,6 +28,7 @@ export default function Services() {
                             src='/images/web-programming.png'
                             width={64}
                             height={64}
+                            alt='Desarrollo Web'
                         />
                     </div>
                     <div>
@@ -45,6 +46,7 @@ export default function Services() {
                             src='/images/edit-tools.png'
                             width={64}
                             height={64}
+                            alt='Diseño'
                         />
                     </div>
                     <div>
@@ -62,6 +64,7 @@ export default function Services() {
                             src='/images/scrum.png'
                             width={64}
                             height={64}
+                            alt='SCRUM'
                         />
                     </div>
                     <div>
@@ -79,6 +82,7 @@ export default function Services() {
                             src='/images/sketch.png'
                             width={64}
                             height={64}
+                            alt='Diseño de Software'
                         />
                     </div>
                     <div>
