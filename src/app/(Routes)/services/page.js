@@ -1,6 +1,6 @@
 import Banner from '../../../components/banner';
 import Image from 'next/image';
-
+import Footer from '../../../components/footer';
 
 export default function Services() {
     return (
@@ -112,7 +112,7 @@ export default function Services() {
 
 
         <footer>
-            
+            <Footer/>
         </footer>
     </div>
     );
