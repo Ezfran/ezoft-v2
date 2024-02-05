@@ -115,9 +115,9 @@ export default function Services() {
             <section className='flex flex-col items-center gap-10 text-center mt-12'>
 
                 <header className='flex flex-col justify-center items-center gap-4'>
-                    <h1 className='text-4xl lg:text-5xl font-extrabold'>
+                    <h3 className='text-4xl lg:text-5xl font-extrabold px-3'>
                         ¡Haz crecer tu marca!
-                    </h1>
+                    </h3>
                     <p className='w-7/12 text-center'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam in et rerum molestiae totam!
                     </p>
