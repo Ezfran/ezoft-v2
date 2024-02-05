@@ -24,3 +24,9 @@
     transform: scale(1.1);
     border: none;
 }
+
+.info-hover:hover{
+    border: none;
+    transition: .5s all;
+    transform: scale(1.1);
+}

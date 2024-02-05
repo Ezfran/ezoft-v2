@@ -22,7 +22,7 @@ export default function Services() {
 
             <section className='mt-20 flex flex-col flex-wrap justify-center gap-10 w-full'>
                 <div className='flex flex-wrap justify-center items-start gap-20 gap-y-16'>
-                    <article className='w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
+                    <article className='info-hover hover:shadow-lg py-6 w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
                         <header>
                             <h3 className='text-lg font-semibold'>
                                 One Code Application for Web
@@ -34,7 +34,7 @@ export default function Services() {
                             </p>
                         </div>
                     </article>
-                    <article className='w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
+                    <article className='info-hover hover:shadow-lg py-6 w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
                         <header>
                             <h3 className='text-lg font-semibold'>
                                 Agile Iterative Development
@@ -48,7 +48,7 @@ export default function Services() {
                     </article>
                 </div>
                 <div className='flex flex-wrap justify-center items-start gap-20'>
-                    <article className='w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
+                    <article className='info-hover hover:shadow-lg py-6 w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
                         <header>
                             <h3 className='text-lg font-semibold'>
                                 Hire Us
@@ -60,7 +60,7 @@ export default function Services() {
                             </p>
                         </div>
                     </article>
-                    <article className='w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
+                    <article className='info-hover hover:shadow-lg py-6 w-11/12 sm:w-[75%] lg:text-start text-center lg:w-[440px] flex flex-col gap-3 border-x-2 px-8'>
                         <header>
                             <h3 className='text-lg font-semibold'>
                                 Single Page Application Development
@@ -75,7 +75,7 @@ export default function Services() {
                 </div>
             </section>
 
-            <section className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 xl:h-80 mt-12'>
+            {/* <section className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 xl:h-80 mt-12'>
                 <article className='overflow-hidden pt-3 h-32 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64 hover:shadow-xl servicios-hover'>
                     <div>
                          <Image
@@ -116,7 +116,6 @@ export default function Services() {
                         <ul className='flex flex-col gap-2 mt-2'>
                             <li className='opacity-50'>Diseño Web</li>
                             <li className='opacity-50'>Renders en 3D</li>
-                            {/* <li className='opacity-50'>Diseño de Software</li> */}
                         </ul>
                     </div>
                 </article>
@@ -164,9 +163,9 @@ export default function Services() {
                         </ul>
                     </div>
                 </article>
-            </section>
+            </section> */}
 
-            <div className='px-[5vw] md:px-[15vw] mt-12 mb-24'>
+            <div className='px-[5vw] md:px-[15vw] mt-28 mb-16'>
                 <section className='bg-black h-auto md:py-0 py-10 md:h-[400px] rounded-[4px] text-white flex flex-col items-start justify-center'>
                     <div className='px-8 w-[100%] lg:w-[60%] flex flex-col gap-6'>
                         <h2 className='text-4xl lg:text-5xl font-extrabold'>
