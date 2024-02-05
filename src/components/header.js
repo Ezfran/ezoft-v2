@@ -49,23 +49,33 @@ export default function Header() {
         </div>
         <ul className="flex flex-col items-start gap-10 uppercase tracking-wider font-light ">
           <div className="flex gap-4 items-center">
-            <i class="fa-solid fa-house"></i>
+            <div className="w-5">
+              <i class="fa-solid fa-house"></i>
+            </div>
             <Link href='#'>Inicio</Link>
           </div>
           <div className="flex gap-4 items-center">
-            <i class="fa-solid fa-user-tie"></i>
+            <div className="w-5">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
             <Link href='#'>Nosotros</Link>
           </div>
           <div className="flex gap-4 items-center">
-            <i class="fa-solid fa-briefcase"></i>
+            <div className="w-5">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
             <Link href='#'>Trabajo</Link>
           </div>
           <div className="flex gap-4 items-center">
-            <i class="fa-solid fa-comments"></i>
+            <div className="w-5">
+              <i class="fa-solid fa-comments"></i>
+            </div>
             <Link href='#'>Contacto</Link>
           </div>
           <div className="flex gap-4 items-center">
-            <i class="fa-solid fa-bullhorn"></i>
+            <div className="w-5">
+              <i class="fa-solid fa-bullhorn"></i>
+            </div>
             <Link href='#'>Blog</Link>
           </div>
           <div className="flex gap-8 items-start">
