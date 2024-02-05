@@ -94,7 +94,7 @@ export default function Footer() {
             </article>
             <article className="">
               <h3>
-                ¡Envíanos un Email!
+                ¡Envía tu Email!
               </h3>
               <form action="#" className="mt-4 flex flex-col items-center lg:items-start">
                 <input type="text" className="bg-[rgba(48,48,48,255)] px-2 py-2 text-[rgba(255,255,255,0.5)] placeholder-[rgba(255,255,255,0.5)] w-64 sm:w-72 lg:w-full" placeholder="Email"/>
