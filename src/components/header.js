@@ -87,7 +87,7 @@ export default function Header() {
             </button>
           </div>
         </ul>
-        <footer className="absolute bottom-0 left-0 flex justify-between w-full py-8 px-10 items-center text-center sm:flex-row flex-col gap-y-4">
+        <footer className={isActive ? "absolute bottom-0 left-0 flex justify-between w-full py-8 px-10 items-center text-center sm:flex-row flex-col gap-y-4" : "hidden"}>
           <div>
             <Image
               src='/ezoft-white.png'
