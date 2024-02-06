@@ -148,8 +148,8 @@ export default function Services() {
             </section>
 
             <section className='px-[5vw] md:px-[15vw] mt-28 mb-16'>
-                <article className='w-full bg-black text-white h-96 rounded-[4px]'>
-                    <header className='flex justify-between pb-3 border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
+                <article className='w-full bg-black text-white lg:h-96 h-auto'>
+                    <header className='flex flex-col gap-y-4 sm:flex-row justify-center sm:justify-between pb-3 border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
                         <p className='text-2xl'>
                             Plan Personalizado
                         </p>
@@ -160,41 +160,41 @@ export default function Services() {
                             </span>
                         </p>
                     </header>
-                    <div className='flex justify-between items-center border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
-                        <ul className='flex flex-col gap-4 w-[50%]'>
-                            <li className='flex items-center justify-between pr-20'>
+                    <div className='sm:gap-0 gap-4 flex sm:flex-row flex-col justify-center sm:justify-between items-center border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
+                        <ul className='flex flex-col gap-4 w-full sm:w-[50%]'>
+                            <li className='flex items-center justify-between pr-[10vw] sm:pr-20'>
                                 <p className='font-mono'>
                                     +3 Páginas
                                 </p>
                                 <i class="fa-solid fa-circle-info"></i>
                             </li>
-                            <li className='flex items-center justify-between pr-20'>
+                            <li className='flex items-center justify-between pr-[10vw] sm:pr-20'>
                                 <p className='font-mono'>
                                     Hosting
                                 </p>
                                 <i class="fa-solid fa-circle-info"></i>
                             </li>
-                            <li className='flex items-center justify-between pr-20'>
+                            <li className='flex items-center justify-between pr-[10vw] sm:pr-20'>
                                 <p className='font-mono'>
                                     Optimización
                                 </p>
                                 <i class="fa-solid fa-circle-info"></i>
                             </li>
                         </ul>
-                        <ul className='flex flex-col gap-4 w-[50%]'>
-                            <li className='flex items-center justify-between pr-20'>
+                        <ul className='flex flex-col gap-4 w-full sm:w-[50%]'>
+                            <li className='flex items-center justify-between pr-[10vw] sm:pr-20'>
                                 <p className='font-mono'>
                                     Mantenimiento
                                 </p>
                                 <i class="fa-solid fa-circle-info"></i>
                             </li>
-                            <li className='flex items-center justify-between pr-20'>
+                            <li className='flex items-center justify-between pr-[10vw] sm:pr-20'>
                                 <p className='font-mono'>
                                     Soporte 24/7
                                 </p>
                                 <i class="fa-solid fa-circle-info"></i>
                             </li>
-                            <li className='flex items-center justify-between pr-20'>
+                            <li className='flex items-center justify-between pr-[10vw] sm:pr-20'>
                                 <p className='font-mono'>
                                     SEO
                                 </p>
@@ -202,8 +202,8 @@ export default function Services() {
                             </li>
                         </ul>
                     </div>
-                    <article className='p-5 flex gap-16 justify-between items-end w-full'>
-                        <div className='w-[50%]'>
+                    <article className='p-5 flex flex-col md:flex-row lg:gap-16 gap-8 justify-center lg:justify-between lg:items-end items-center w-full'>
+                        <div className='w-full lg:w-[50%]'>
                             <p className='text-lg'>
                                 Ideal Para:
                             </p>
@@ -212,7 +212,7 @@ export default function Services() {
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             </p>
                         </div>
-                        <a href='#' className='bg-white text-black px-10 py-3 text-center rounded-[4px]'>
+                        <a href='#' className='bg-white text-black w-36 sm:w-48 flex items-center justify-center h-10 text-center rounded-[4px]'>
                             Inicia Ahora
                         </a>
                     </article>
