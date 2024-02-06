@@ -136,17 +136,6 @@ export default function Services() {
 
             </section>
 
-            <section className='flex justify-center items-center mt-28 px-[15vw]'>
-                <div className='text-center border-y-2 border-black border-opacity-20 w-full flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
-                    <h3 className='text-2xl font-semibold'>
-                        ¿Estás buscando algo más?
-                    </h3>
-                    <a href="#" className="px-3 md:px-6 py-2 bg-black text-white text-sm md:text-lg rounded-[4px]">
-                        ¡Escríbanos!
-                    </a> 
-                </div>
-            </section>
-
             <section className='px-[5vw] md:px-[15vw] mt-28 mb-16'>
                 <article className='w-full bg-black text-white lg:h-96 h-auto'>
                     <header className='flex flex-col gap-y-4 sm:flex-row justify-center sm:justify-between pb-3 border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
@@ -223,6 +212,20 @@ export default function Services() {
                     </article>
                 </div>
             </section>
+
+            
+            <section className='flex justify-center items-center mt-28 px-[15vw]'>
+                <div className='text-center border-y-2 border-black border-opacity-20 w-full flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
+                    <h3 className='text-2xl font-semibold'>
+                        ¿Estás buscando algo más?
+                    </h3>
+                    <a href="#" className="px-3 md:px-6 py-2 bg-black text-white text-sm md:text-lg rounded-[4px]">
+                        ¡Escríbanos!
+                    </a> 
+                </div>
+            </section>
+
+
 
 
         </main>
