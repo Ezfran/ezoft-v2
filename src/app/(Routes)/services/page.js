@@ -136,14 +136,14 @@ export default function Services() {
 
             </section>
 
-            <section className='px-[5vw] md:px-[15vw] mt-28 mb-16'>
+            <section className='px-[5vw] md:px-[15vw] mt-28 mb-16 flex flex-col gap-y-5'>
                 <article className='w-full bg-black text-white lg:h-96 h-auto'>
                     <header className='flex flex-col gap-y-4 sm:flex-row justify-center sm:justify-between pb-3 border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
                         <p className='text-2xl'>
                             Plan Personalizado
                         </p>
                         <p className='text-3xl'>
-                            300$
+                            299.99$
                             <span className='block opacity-60 uppercase text-sm'>
                                 Lorem, ipsum dolor.
                             </span>
@@ -196,7 +196,7 @@ export default function Services() {
                             <p className='text-lg'>
                                 Ideal Para:
                             </p>
-                            <p className='opacity-60 '>
+                            <p className='opacity-60 ml-0 md:ml-4'>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsam.
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             </p>
@@ -206,10 +206,102 @@ export default function Services() {
                         </a>
                     </article>
                 </article>
-                <div>
-                    <article>
-
+                <div className='flex flex-col md:flex-row gap-5 items-start justify-center'>
+                    
+                    <article className='border-[1px] border-[rgba(0,0,0,.3)] w-full md:w-[50%]'>
+                        <header className='flex flex-col gap-y-4 sm:flex-row justify-center sm:justify-between pb-3 border-b-[1px] border-[rgba(0,0,0,.3)] p-5'>
+                            <p className='text-2xl'>
+                                Plan 1
+                            </p>
+                            <p className='text-3xl'>
+                                199.99$
+                            </p>
+                        </header>
+                        <div className='border-b-[1px] border-[rgba(0,0,0,.3)]'>
+                            <ul className='flex flex-col justify-between gap-4 w-full p-5'>
+                                <li className='flex items-center justify-between pr-[10.5vw] sm:pr-10'>
+                                    <p className='font-mono'>
+                                        +3 Páginas
+                                    </p>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </li>
+                                <li className='flex items-center justify-between pr-[10.5vw] sm:pr-10'>
+                                    <p className='font-mono'>
+                                        Hosting
+                                    </p>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </li>
+                                <li className='flex items-center justify-between pr-[10.5vw] sm:pr-10'>
+                                    <p className='font-mono'>
+                                        Optimización
+                                    </p>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <article className='p-5 flex flex-col gap-8 justify-center items-start w-full'>
+                            <div className='w-full'>
+                                <p className='text-lg'>
+                                    Ideal Para:
+                                </p>
+                                <p className='opacity-60 ml-0 md:ml-4'>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsam.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <a href='#' className='bg-black text-white w-36 sm:w-48 flex items-center justify-center h-10 text-center rounded-[4px]'>
+                                Inicia Ahora
+                            </a>
+                        </article>
                     </article>
+
+                    <article className='border-[1px] border-[rgba(0,0,0,.3)] w-full md:w-[50%]'>
+                        <header className='flex flex-col gap-y-4 sm:flex-row justify-center sm:justify-between pb-3 border-b-[1px] border-[rgba(0,0,0,.3)] p-5'>
+                            <p className='text-2xl'>
+                                Plan 1
+                            </p>
+                            <p className='text-3xl'>
+                                199.99$
+                            </p>
+                        </header>
+                        <div className='border-b-[1px] border-[rgba(0,0,0,.3)]'>
+                            <ul className='flex flex-col justify-between gap-4 w-full p-5'>
+                                <li className='flex items-center justify-between pr-[10.5vw] sm:pr-10'>
+                                    <p className='font-mono'>
+                                        +3 Páginas
+                                    </p>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </li>
+                                <li className='flex items-center justify-between pr-[10.5vw] sm:pr-10'>
+                                    <p className='font-mono'>
+                                        Hosting
+                                    </p>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </li>
+                                <li className='flex items-center justify-between pr-[10.5vw] sm:pr-10'>
+                                    <p className='font-mono'>
+                                        Optimización
+                                    </p>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <article className='p-5 flex flex-col gap-8 justify-center items-start w-full'>
+                            <div className='w-full'>
+                                <p className='text-lg'>
+                                    Ideal Para:
+                                </p>
+                                <p className='opacity-60 ml-0 md:ml-4'>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsam.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <a href='#' className='bg-black text-white w-36 sm:w-48 flex items-center justify-center h-10 text-center rounded-[4px]'>
+                                Inicia Ahora
+                            </a>
+                        </article>
+                    </article>
+                    
                 </div>
             </section>
 
