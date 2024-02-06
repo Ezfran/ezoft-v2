@@ -147,6 +147,82 @@ export default function Services() {
                 </div>
             </section>
 
+            <section className='px-[5vw] md:px-[15vw] mt-28 mb-16'>
+                <article className='w-full bg-black text-white h-96 rounded-[4px]'>
+                    <header className='flex justify-between pb-3 border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
+                        <p className='text-2xl'>
+                            Plan Personalizado
+                        </p>
+                        <p className='text-3xl'>
+                            300$
+                            <span className='block opacity-60 uppercase text-sm'>
+                                Lorem, ipsum dolor.
+                            </span>
+                        </p>
+                    </header>
+                    <div className='flex justify-between items-center border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
+                        <ul className='flex flex-col gap-4 w-[50%]'>
+                            <li className='flex items-center justify-between pr-20'>
+                                <p className='font-mono'>
+                                    +3 Páginas
+                                </p>
+                                <i class="fa-solid fa-circle-info"></i>
+                            </li>
+                            <li className='flex items-center justify-between pr-20'>
+                                <p className='font-mono'>
+                                    Hosting
+                                </p>
+                                <i class="fa-solid fa-circle-info"></i>
+                            </li>
+                            <li className='flex items-center justify-between pr-20'>
+                                <p className='font-mono'>
+                                    Optimización
+                                </p>
+                                <i class="fa-solid fa-circle-info"></i>
+                            </li>
+                        </ul>
+                        <ul className='flex flex-col gap-4 w-[50%]'>
+                            <li className='flex items-center justify-between pr-20'>
+                                <p className='font-mono'>
+                                    Mantenimiento
+                                </p>
+                                <i class="fa-solid fa-circle-info"></i>
+                            </li>
+                            <li className='flex items-center justify-between pr-20'>
+                                <p className='font-mono'>
+                                    Soporte 24/7
+                                </p>
+                                <i class="fa-solid fa-circle-info"></i>
+                            </li>
+                            <li className='flex items-center justify-between pr-20'>
+                                <p className='font-mono'>
+                                    SEO
+                                </p>
+                                <i class="fa-solid fa-circle-info"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <article className='p-5 flex gap-16 justify-between items-end w-full'>
+                        <div className='w-[50%]'>
+                            <p className='text-lg'>
+                                Ideal Para:
+                            </p>
+                            <p className='opacity-60 '>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsam.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            </p>
+                        </div>
+                        <a href='#' className='bg-white text-black px-10 py-3 text-center rounded-[4px]'>
+                            Inicia Ahora
+                        </a>
+                    </article>
+                </article>
+                <div>
+                    <article>
+
+                    </article>
+                </div>
+            </section>
 
 
         </main>

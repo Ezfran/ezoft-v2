@@ -52,13 +52,19 @@ export default function Header() {
             <div className="w-5">
               <i class="fa-solid fa-house"></i>
             </div>
-            <Link href='#'>Inicio</Link>
+            <Link href='/'>Inicio</Link>
           </div>
           <div className="flex gap-4 items-center">
             <div className="w-5">
               <i class="fa-solid fa-user-tie"></i>
             </div>
             <Link href='#'>Nosotros</Link>
+          </div>
+          <div className="flex gap-4 items-center">
+            <div className="w-5">
+              <i class="fa-solid fa-address-card"></i>
+            </div>
+            <Link href='/services'>Servicios</Link>
           </div>
           <div className="flex gap-4 items-center">
             <div className="w-5">
