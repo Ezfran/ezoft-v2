@@ -75,7 +75,8 @@ export default function Services() {
                 </div>
             </section>
 
-            <div className='px-[5vw] md:px-[15vw] mt-28 mb-16'>
+
+            <div className='px-[5vw] md:px-[15vw] mt-32 mb-16'>
                 <section className='bg-black h-auto md:py-0 py-10 md:h-[400px] rounded-[4px] text-white flex flex-col items-start justify-center'>
                     <div className='px-8 w-[100%] lg:w-[60%] flex flex-col gap-6'>
                         <h2 className='text-4xl lg:text-5xl font-extrabold'>
@@ -164,48 +165,6 @@ export default function Services() {
                 </div>
             </section>
 
-            <section className='mt-28'>
-                <header className='text-center flex flex-col gap-2 relative'>
-                    <h1 className='text-3xl lg:text-4xl font-bold'>
-                        Sobre Ezoft
-                    </h1>
-                    <p className='opacity-60 font-semibold'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet corporis vero.
-                    </p>
-                </header>
-                <div className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 mt-12'>
-                    <article className='pt-3 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64'>
-                        <div>
-                            <h3 className='text-5xl font-medium'>
-                                28+
-                                <span className='block text-lg opacity-60'>
-                                    Clientes Satisfechos
-                                </span>
-                            </h3>
-                        </div>
-                    </article>
-                    <article className='pt-3 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64'>
-                        <div>
-                            <h3 className='text-5xl font-medium'>
-                                3+
-                                <span className='block text-lg opacity-60'>
-                                    Años de Experiencia
-                                </span>
-                            </h3>
-                        </div>
-                    </article>
-                    <article className='pt-3 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64'>
-                        <div>
-                            <h3 className='text-5xl font-medium'>
-                                32+
-                                <span className='block text-lg opacity-60'>
-                                    Proyectos realizados
-                                </span>
-                            </h3>
-                        </div>
-                    </article>
-                </div>
-            </section>
           
 
         </main>

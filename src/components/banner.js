@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Banner() {
 
     const pathname = usePathname();
-    const title = pathname === '/' ? 'Home' : pathname === '/services' ? 'Servicios' : 'Work';
+    const title = pathname === '/' ? 'Home' : pathname === '/services' ? 'Servicios' : pathname === '/about-us' ? 'Nosotros' : 'Work';
     
     return (
             

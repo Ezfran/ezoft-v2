@@ -21,7 +21,7 @@ export default function Header() {
 
       <section className="flex items-center gap-4 md:gap-10">
 
-        <a href="#" className="px-3 md:px-6 py-2 bg-black text-white text-sm md:text-lg rounded-[4px]">
+      <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
           ¡Contactenos!
         </a>
 
@@ -58,7 +58,7 @@ export default function Header() {
             <div className="w-5">
               <i class="fa-solid fa-user-tie"></i>
             </div>
-            <Link href='#'>Nosotros</Link>
+            <Link href='/about-us'>Nosotros</Link>
           </div>
           <div className="flex gap-4 items-center">
             <div className="w-5">

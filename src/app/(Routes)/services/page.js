@@ -14,14 +14,14 @@ export default function Services() {
 
             <header className='text-center flex flex-col gap-2 px-8'>
                 <h1 className='text-3xl lg:text-4xl font-bold'>
-                    Nuestros Servicios
+                    ¡Haz crecer tu marca!
                 </h1>
-                <p className='opacity-50 font-semibold'>
+                <p className='opacity-60 font-semibold'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, amet.
                 </p>
             </header>
 
-            <section className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 xl:h-80 mt-12'>
+            <section className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 xl:h-80 mt-0'>
                 <article className='overflow-hidden pt-3 h-32 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64 hover:shadow-xl servicios-hover'>
                     <div>
                          <Image
@@ -112,24 +112,21 @@ export default function Services() {
                 </article>
             </section>
 
-            <section className='flex flex-col items-center gap-10 text-center mt-12'>
+            <section className='flex flex-col items-center gap-16 text-center mt-0'>
 
-                <header className='flex flex-col justify-center items-center gap-4'>
-                    <h3 className='text-4xl lg:text-5xl font-extrabold px-3'>
-                        ¡Haz crecer tu marca!
-                    </h3>
-                    <p className='w-7/12 text-center'>
+                <header className='flex flex-col justify-center items-center gap-8'>
+                    <p className='w-7/12 text-center opacity-60 font-semibold'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam in et rerum molestiae totam!
                     </p>
-                    <a href='#' className='bg-black text-white w-52 py-3 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500 border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
+                    <a href='#' className='bg-black text-white w-36 sm:w-40 flex items-center justify-center h-12 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                         Inicia Ahora
                     </a>
                 </header>
                 <article>
                     <Image
-                        src='/images/engineering_team.svg'
-                        width={300}
-                        height={300}
+                        src='/images/control.svg'
+                        width={330}
+                        height={330}
                         alt='Control'
                     />
                 </article>
@@ -201,7 +198,7 @@ export default function Services() {
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             </p>
                         </div>
-                        <a href='#' className='bg-white text-black w-36 sm:w-48 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-black hover:border-white hover:text-white transition-all duration-500'>
+                        <a href='#' className='bg-white text-black w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-black hover:border-white hover:text-white transition-all duration-500'>
                             Inicia Ahora
                         </a>
                     </article>
@@ -249,7 +246,7 @@ export default function Services() {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                                 </p>
                             </div>
-                            <a href='#' className='bg-black text-white w-36 sm:w-48 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
+                            <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                                 Inicia Ahora
                             </a>
                         </article>
@@ -296,7 +293,7 @@ export default function Services() {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                                 </p>
                             </div>
-                            <a href='#' className='bg-black text-white w-36 sm:w-48 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
+                            <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                                 Inicia Ahora
                             </a>
                         </article>
@@ -372,7 +369,7 @@ export default function Services() {
                     <h3 className='text-2xl font-semibold'>
                         ¿Estás buscando algo más?
                     </h3>
-                    <a href="#" className="px-3 md:px-6 py-2 bg-black text-white text-sm md:text-lg rounded-[4px] hover:bg-white hover:border-black border-2 hover:text-black transition-all duration-500">
+                    <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                         ¡Escríbanos!
                     </a> 
                 </div>
