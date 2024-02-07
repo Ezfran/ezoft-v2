@@ -21,21 +21,21 @@ export default function Services() {
                 </p>
             </header>
 
-            <section className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 xl:h-80 mt-0'>
+            <section className='px-7 flex flex-wrap justify-center items-center text-center gap-8 gap-y-16 xl:h-80 mt-16 lg:mt-0'>
                 <article className='overflow-hidden pt-3 h-32 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64 hover:shadow-xl servicios-hover'>
-                    <div>
+                    <div className='py-4'>
                          <Image
                             src='/images/web-programming.png'
-                            width={64}
-                            height={64}
+                            width={40}
+                            height={40}
                             alt='Desarrollo Web'
                         />
                     </div>
                     <div>
-                        <h3 className='text-lg font-semibold'>Desarrollo Web
-                            <span className='block text-[12px] -translate-y-1'>
+                        <h3 className='text-sm uppercase mt-1 tracking-wider '>Desarrollo Web
+                            {/* <span className='block text-[12px] -translate-y-1'>
                                 &darr; Detalles &darr;
-                            </span>
+                            </span> */}
                         </h3>
                         <ul className='flex flex-col gap-2 mt-2'>
                             <li className='opacity-50'>Sitios Web a Medida</li>
@@ -45,19 +45,19 @@ export default function Services() {
                     </div>
                 </article>
                 <article className='overflow-hidden pt-3 h-32 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64 hover:shadow-xl servicios-hover'>
-                    <div>
+                    <div className='py-4'>
                         <Image
                             src='/images/edit-tools.png'
-                            width={64}
-                            height={64}
+                            width={40}
+                            height={40}
                             alt='Diseño'
                         />
                     </div>
                     <div>
-                        <h3 className='text-lg font-semibold'>Diseño
-                            <span className='block text-[12px] -translate-y-1'>
+                        <h3 className='text-sm uppercase mt-1 tracking-wider '>Diseño
+                            {/* <span className='block text-[12px] -translate-y-1'>
                                 &darr; Detalles &darr;
-                            </span>
+                            </span> */}
                         </h3>
                         <ul className='flex flex-col gap-2 mt-2'>
                             <li className='opacity-50'>Diseño Web</li>
@@ -67,19 +67,19 @@ export default function Services() {
                     </div>
                 </article>
                 <article className='overflow-hidden pt-3 h-32 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64 hover:shadow-xl servicios-hover'>
-                    <div>
+                    <div className='py-4'>
                          <Image
                             src='/images/scrum.png'
-                            width={64}
-                            height={64}
+                            width={40}
+                            height={40}
                             alt='SCRUM'
                         />
                     </div>
                     <div>
-                        <h3 className='text-lg font-semibold'>Soporte & Mantenimiento
-                            <span className='block text-[12px] -translate-y-1'>
+                        <h3 className='text-sm uppercase mt-1 tracking-wider '>Soporte & Mantenimiento
+                            {/* <span className='block text-[12px] -translate-y-1'>
                                 &darr; Detalles &darr;
-                            </span>
+                            </span> */}
                         </h3>
                         <ul className='flex flex-col gap-2 mt-2'>
                             <li className='opacity-50'>SEO</li>
@@ -89,19 +89,19 @@ export default function Services() {
                     </div>
                 </article>
                 <article className='overflow-hidden pt-3 h-32 flex flex-col gap-2 items-center border-x-2 border-black border-opacity-20 w-64 hover:shadow-xl servicios-hover'>
-                    <div>
+                    <div className='py-4'>
                          <Image
                             src='/images/sketch.png'
-                            width={64}
-                            height={64}
+                            width={40}
+                            height={40}
                             alt='Diseño de Software'
                         />
                     </div>
                     <div>
-                        <h3 className='text-lg font-semibold'>Software a Medida
-                            <span className='block text-[12px] -translate-y-1'>
+                        <h3 className='text-sm uppercase mt-1 tracking-wider '>Software a Medida
+                            {/* <span className='block text-[12px] -translate-y-1'>
                                 &darr; Detalles &darr;
-                            </span>
+                            </span> */}
                         </h3>
                         <ul className='flex flex-col gap-2 mt-2'>
                             <li className='opacity-50'>Aplicaciones Web</li>
@@ -112,7 +112,7 @@ export default function Services() {
                 </article>
             </section>
 
-            <section className='flex flex-col items-center gap-16 text-center mt-0'>
+            <section className='flex flex-col items-center gap-16 text-center mt-12 lg:mt-0'>
 
                 <header className='flex flex-col justify-center items-center gap-8'>
                     <p className='w-7/12 text-center opacity-60 font-semibold'>
@@ -133,7 +133,7 @@ export default function Services() {
 
             </section>
 
-            <section className='px-[5vw] md:px-[15vw] mt-28 mb-16 flex flex-col gap-y-5'>
+            <section className='px-[5vw] md:px-[15vw] mt-32 mb-16 flex flex-col gap-y-5'>
                 <article className='w-full bg-black text-white lg:h-96 h-auto rounded-[4px]'>
                     <header className='flex flex-col gap-y-4 sm:flex-row justify-center sm:justify-between pb-3 border-b-[1px] border-[rgba(255,255,255,.3)] p-5'>
                         <p className='text-2xl'>
@@ -302,7 +302,6 @@ export default function Services() {
                 </div>
             </section>
 
-
             <section className='px-[5vw] md:px-[15vw] flex flex-col gap-10'>
                 <article className='flex flex-col gap-5 border-b-[1px] border-[rgba(0,0,0,.3)] pb-10'>
                     <header className='flex gap-y-2 lg:flex-row flex-col items-start justify-between w-full lg:items-center '>
@@ -367,7 +366,7 @@ export default function Services() {
             <section className='flex justify-center items-center mt-28 px-[15vw]'>
                 <div className='text-center border-y-2 border-black border-opacity-20 w-full flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
                     <h3 className='text-2xl font-semibold'>
-                        ¿Estás buscando algo más?
+                        ¿Está buscando algo más?
                     </h3>
                     <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                         ¡Escríbanos!
