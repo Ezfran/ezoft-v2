@@ -358,7 +358,7 @@ export default function Services() {
                         </p>
                         <div className='md:w-[50%] w-full flex items-start md:items-end justify-start md:justify-end'>
                             <a href="#" className="text-sm px-3 md:px-5 py-2 border-2 border-[rgba(0,0,0,.6)] text-black md:text-base rounded-[4px] hover:bg-black hover:border-white hover:text-white transition-all duration-500">
-                                Elija el mejor para ti
+                                Elija el mejor para usted
                             </a> 
                         </div>
                     </div>
