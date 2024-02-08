@@ -277,7 +277,7 @@ export default function Work() {
                 <section className='flex justify-center items-center mt-28 px-[15vw]'>
                     <div className='text-center border-y-2 border-black border-opacity-20 w-full flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
                         <h3 className='text-2xl font-semibold'>
-                            ¿Busca algo más?
+                            ¿Buscas algo más?
                         </h3>
                         <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                             ¡Escríbanos!
