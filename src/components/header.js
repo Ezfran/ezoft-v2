@@ -70,7 +70,7 @@ export default function Header() {
             <div className="w-5">
               <i class="fa-solid fa-briefcase"></i>
             </div>
-            <Link href='#'>Trabajo</Link>
+            <Link href='/work'>Trabajo</Link>
           </div>
           <div className="flex gap-4 items-center">
             <div className="w-5">

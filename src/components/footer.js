@@ -116,9 +116,9 @@ export default function Footer() {
             </div>
             <ul className="text-white flex sm:flex-row flex-col gap-6 items-center">
               <Link href="/">Inicio</Link>
-              <Link href="#">Nosotros</Link>
+              <Link href="/about-us">Nosotros</Link>
               <Link href="/services">Servicios</Link>
-              <Link href="#">Trabajo</Link>
+              <Link href="/work">Trabajo</Link>
               <Link href="#">Contacto</Link>
             </ul>
           </article>

@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Banner() {
 
     const pathname = usePathname();
-    const title = pathname === '/' ? 'Home' : pathname === '/services' ? 'Servicios' : pathname === '/about-us' ? 'Nosotros' : 'Work';
+    const title = pathname === '/' ? 'Inicio' : pathname === '/services' ? 'Servicios' : pathname === '/about-us' ? 'Nosotros' : 'Proyectos';
     
     return (
             
@@ -24,7 +24,7 @@ export default function Banner() {
                     </h5>
                     <div>
                         <p className='absolute left-0 bottom-0 text-lg font-medium opacity-60'>
-                            <Link href="/">Home //</Link> {title}
+                            <Link href="/">Inicio //</Link> {title}
                         </p>
                     </div>
                 </section>

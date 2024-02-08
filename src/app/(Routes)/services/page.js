@@ -366,7 +366,7 @@ export default function Services() {
                 <section className='flex justify-center items-center mt-28 px-[15vw]'>
                     <div className='text-center border-y-2 border-black border-opacity-20 w-full flex md:flex-row flex-col gap-x-14 gap-y-3 justify-center items-center h-40 sm:h-32 md:h-24'>
                         <h3 className='text-2xl font-semibold'>
-                            ¿Está buscando algo más?
+                            ¿Busca algo más?
                         </h3>
                         <a href='#' className='bg-black text-white w-36 sm:w-36 flex items-center justify-center h-10 text-center rounded-[4px] border-2 hover:bg-white hover:border-black hover:text-black transition-all duration-500'>
                             ¡Escríbanos!
@@ -374,135 +374,6 @@ export default function Services() {
                     </div>
                 </section>
 
-
-                <section className='text-white px-[5vw] md:px-[10vw] flex flex-wrap justify-center items-center gap-5 mt-24'>
-                    <article className='pt-36 bg-black w-[100%] md:w-[330px] border-[rgba(0,0,0,0.2)] border rounded-[4px] overflow-hidden relative'>
-                            <div className='absolute w-full h-52 sm:h-60 top-0 p-2'>
-                                <Image
-                                    src="/bg-1.jpg"
-                                    width={700}
-                                    height={0}
-                                    className='w-full h-full object-cover rounded-sm -z-50'
-                                />
-                            </div>
-                            <div className='w-full transparent bg-[rgba(0,0,0,0.67)] backdrop-blur-sm z-50 p-3 pt-4 relative'>
-                                <article className='h-auto sm:h-20 md:h-40'>
-                                    <h1 className="text-xl tracking-wider">CannaLitoral</h1>
-                                    <p className="mt-2 opacity-70 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum rerum nisi, dolores enim excepturi suscipit consectetur illo accusamus aliquam!</p>
-                                </article>
-
-                                <article className="my-8 flex gap-3 text-center flex-wrap">
-                                    <p className="bg-black border-white duration-500 border-2 border-transparent py-1 px-4 rounded-[4px] hover:bg-white hover:text-black hover:border-black">
-                                        Angular
-                                    </p>
-                                    <p className="bg-black border-white duration-500 border-2 border-transparent py-1 px-4 rounded-[4px] hover:bg-white hover:text-black hover:border-black">
-                                        Tailwind
-                                    </p>
-                                </article>
-
-                                <article>
-                                    <section className="flex sm:flex-col flex-row gap-5">
-                                        <div className="">
-                                            <p className="text-sm"> 
-                                                Ubicación del cliente
-                                                <span className="text-md block">España</span>
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p className="text-sm"> 
-                                                Tipo de proyecto
-                                                <span className="text-md block">Remoto</span>
-                                            </p>
-                                        </div>
-                                    </section>
-                                </article>
-                            </div>
-                    </article>
-                    <article className='pt-36 bg-black w-[100%] md:w-[330px] border-[rgba(0,0,0,0.2)] border rounded-[4px] overflow-hidden relative'>
-                            <div className='absolute w-full h-52 sm:h-60 top-0 p-2'>
-                                <Image
-                                    src="/bg-1.jpg"
-                                    width={700}
-                                    height={0}
-                                    className='w-full h-full object-cover rounded-sm -z-50'
-                                />
-                            </div>
-                            <div className='w-full transparent bg-[rgba(0,0,0,0.67)] backdrop-blur-sm z-50 p-3 pt-4 relative'>
-                                <article className='h-auto sm:h-20 md:h-40'>
-                                    <h1 className="text-xl tracking-wider">CannaLitoral</h1>
-                                    <p className="mt-2 opacity-70 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum rerum nisi, dolores enim excepturi suscipit consectetur illo accusamus aliquam!</p>
-                                </article>
-
-                                <article className="my-8 flex gap-3 text-center flex-wrap">
-                                    <p className="bg-black border-white duration-500 border-2 border-transparent py-1 px-4 rounded-[4px] hover:bg-white hover:text-black hover:border-black">
-                                        Angular
-                                    </p>
-                                    <p className="bg-black border-white duration-500 border-2 border-transparent py-1 px-4 rounded-[4px] hover:bg-white hover:text-black hover:border-black">
-                                        Tailwind
-                                    </p>
-                                </article>
-
-                                <article>
-                                    <section className="flex sm:flex-col flex-row gap-5">
-                                        <div className="">
-                                            <p className="text-sm"> 
-                                                Ubicación del cliente
-                                                <span className="text-md block">España</span>
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p className="text-sm"> 
-                                                Tipo de proyecto
-                                                <span className="text-md block">Remoto</span>
-                                            </p>
-                                        </div>
-                                    </section>
-                                </article>
-                            </div>
-                    </article>
-                    <article className='pt-36 bg-black w-[100%] md:w-[330px] border-[rgba(0,0,0,0.2)] border rounded-[4px] overflow-hidden relative'>
-                            <div className='absolute w-full h-52 sm:h-60 top-0 p-2'>
-                                <Image
-                                    src="/bg-1.jpg"
-                                    width={700}
-                                    height={0}
-                                    className='w-full h-full object-cover rounded-sm -z-50'
-                                />
-                            </div>
-                            <div className='w-full transparent bg-[rgba(0,0,0,0.67)] backdrop-blur-sm z-50 p-3 pt-4 relative'>
-                                <article className='h-auto sm:h-20 md:h-40'>
-                                    <h1 className="text-xl tracking-wider">CannaLitoral</h1>
-                                    <p className="mt-2 opacity-70 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum rerum nisi, dolores enim excepturi suscipit consectetur illo accusamus aliquam!</p>
-                                </article>
-
-                                <article className="my-8 flex gap-3 text-center flex-wrap">
-                                    <p className="bg-black border-white duration-500 border-2 border-transparent py-1 px-4 rounded-[4px] hover:bg-white hover:text-black hover:border-black">
-                                        Angular
-                                    </p>
-                                    <p className="bg-black border-white duration-500 border-2 border-transparent py-1 px-4 rounded-[4px] hover:bg-white hover:text-black hover:border-black">
-                                        Tailwind
-                                    </p>
-                                </article>
-
-                                <article>
-                                    <section className="flex sm:flex-col flex-row gap-5">
-                                        <div className="">
-                                            <p className="text-sm"> 
-                                                Ubicación del cliente
-                                                <span className="text-md block">España</span>
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p className="text-sm"> 
-                                                Tipo de proyecto
-                                                <span className="text-md block">Remoto</span>
-                                            </p>
-                                        </div>
-                                    </section>
-                                </article>
-                            </div>
-                    </article>
-                </section>
 
 
 
