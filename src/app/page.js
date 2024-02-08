@@ -165,6 +165,103 @@ export default function Services() {
                 </div>
             </section>
 
+            <section className='flex lg:flex-row flex-col px-[5vw] md:px-[15vw] mt-28'>
+                <div className='w-full lg:w-[50%] text-center'>
+                    <article className='flex justify-center items-center flex-col gap-4 bg-[rgba(0,0,0,.02)] h-80'>
+                        <h3>
+                            Lorem, ipsum.
+                        </h3>
+                        <p className='flex items-center flex-col'>
+                            Lorem ipsum dolor sit amet.
+                            <span className='block border-b-4 border-[rgba(0,0,0,1)] w-[20%] mt-6'>
+                                
+                            </span>
+                        </p>
+                        <p className='w-[80%] font-bold'>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, nulla.
+                        </p>
+                        <Image
+                            src='/images/programmer.svg'
+                            width={50}
+                            height={50}
+                            alt='scrum'
+                            className='mt-4'
+                        />
+                    </article>
+                    <article className='grid place-content-center w-full h-auto lg:h-80'>
+                        <Image
+                            src='/bg-1.jpg'
+                            width={700}
+                            height={0}
+                            alt='scrum'
+                            className='-z-10 w-full h-full'
+                        />
+                    </article>
+                    <article className='flex justify-center items-center flex-col gap-4 bg-[rgba(0,0,0,.02)] h-80'>
+                        <h3>
+                            Lorem, ipsum.
+                        </h3>
+                        <p className='flex items-center flex-col'>
+                            Lorem ipsum dolor sit amet.
+                            <span className='block border-b-4 border-[rgba(0,0,0,1)] w-[20%] mt-6'>
+                                
+                            </span>
+                        </p>
+                        <p className='w-[80%] font-bold'>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, nulla.
+                        </p>
+                        <Image
+                            src='/images/programmer.svg'
+                            width={50}
+                            height={50}
+                            alt='scrum'
+                            className='mt-4'
+                        />
+                    </article>
+                </div>
+                <div className='w-full lg:w-[50%] text-center'>
+                    <article className='bg-[rgba(0,0,0,0.605)] grid place-content-center h-auto lg:h-80'>
+                        <Image
+                            src='/bg-1.jpg'
+                            width={700}
+                            height={0}
+                            alt='scrum'
+                            className='-z-10 w-full h-full'
+                        />
+                    </article>
+                    <article className='flex justify-center items-center flex-col gap-4 bg-black text-white h-80'>
+                        <h3>
+                            Lorem, ipsum.
+                        </h3>
+                        <p className='flex items-center flex-col'>
+                            Lorem ipsum dolor sit amet.
+                            <span className='block border-b-4 border-[rgba(255,255,255,1)] w-[20%] mt-6'>
+                                
+                            </span>
+                        </p>
+                        <p className='w-[80%] font-bold'>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, nulla.
+                        </p>
+                        <Image
+                            src='/images/programmer.svg'
+                            width={50}
+                            height={50}
+                            alt='scrum'
+                            className='mt-4'
+                        />
+                    </article>
+                    <article className='bg-[rgba(0,0,0,0.605)] grid place-content-center h-auto lg:h-80'>
+                        <Image
+                            src='/bg-1.jpg'
+                            width={700}
+                            height={320}
+                            alt='scrum'
+                            objectFit='cover'
+                            className='-z-10 w-full h-full'
+                        />
+                    </article>
+                </div>
+            </section>
           
 
         </main>
